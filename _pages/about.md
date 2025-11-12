@@ -1,23 +1,12 @@
 ---
 permalink: /
-title: "Xin Yi"
+title: "About Me"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-**Associate Professor**  
-Department of Mechanics and Engineering Science,  
-College of Engineering, Peking University  
-Beijing 100871, China
-
-📧 [xyi@pku.edu.cn](mailto:xyi@pku.edu.cn)  
-🌐 [Google Site](https://sites.google.com/view/yixin1983) · [PKU Profile](http://www2.coe.pku.edu.cn/subpaget.asp?id=602)
-
----
-
-## About Me
 I am an **Associate Professor** at the **College of Engineering, Peking University**.  
 My research spans **solid mechanics, nanomechanics, and cell mechanics**, with recent works on:
 - Mechanics of cell–nanomaterial interactions  
