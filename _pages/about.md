@@ -6,6 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+======
     Associate Professor
 
     Department of Mechanics, 
