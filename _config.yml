@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Xin Yi / Site Title"
+title                    : "Xin Yi | Solid Mechanics and Nanomechanics, Peking University"
 title_separator          : "-"
 name                     : "Xin Yi"
 description              : &description "Associate Professor, Peking University"  # Update this with a general description of your site, this is the default if not overridden by a page
@@ -24,21 +24,21 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Xin Yi"
   pronouns         : # example: "she/her"  
   bio              : "Associate Professor, Department of Mechanics and Engineering Science, College of Engineering, Peking University"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  location         : "China"
+  employer         : "Peking University"
+  uri              : "http://www2.coe.pku.edu.cn/subpaget.asp?id=602"
+  email            : "xyi@pku.edu.cn" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://sites.google.com/view/yixin1983"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : #"https://orcid.org/yourorcidurl"
   semantic         : # URL
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
