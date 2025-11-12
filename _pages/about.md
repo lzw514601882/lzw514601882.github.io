@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-# Xin Yi
 **Associate Professor**  
 Department of Mechanics and Engineering Science,  
 College of Engineering, Peking University  
