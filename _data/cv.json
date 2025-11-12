@@ -1,152 +1,138 @@
 {
-  "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
-    "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
-    },
-    "profiles": [
-      {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
-        "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
-      }
-    ]
+  "name": "Xin Yi",
+  "title": "Associate Professor",
+  "affiliation": "Department of Mechanics and Engineering Science, College of Engineering, Peking University",
+  "location": "Beijing 100871, China",
+  "email": "xyi@pku.edu.cn",
+  "homepage": {
+    "google_site": "https://sites.google.com/view/yixin1983",
+    "pku_profile": "http://www2.coe.pku.edu.cn/subpaget.asp?id=602"
   },
-  "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "degree": "Ph.D.",
+      "field": "Mechanical Engineering",
+      "institution": "Brown University",
+      "years": "2008–2014"
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
+      "degree": "M.S.",
+      "field": "Mechanical Engineering",
+      "institution": "Peking University",
+      "years": "2005–2008"
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "degree": "B.Eng.",
+      "field": "Mechanical Engineering",
+      "institution": "Peking University",
+      "years": "2001–2005"
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
-  "references": [],
-  "publications": [
+  "professional_experience": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "position": "Associate Professor",
+      "institution": "College of Engineering, Peking University",
+      "years": "02/2023–present"
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "position": "Assistant Professor",
+      "institution": "College of Engineering, Peking University",
+      "years": "11/2016–02/2023"
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "position": "Postdoctoral Associate",
+      "institution": "Dartmouth College",
+      "years": "07/2016–11/2016"
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "position": "Postdoctoral Associate",
+      "institution": "Brown University",
+      "years": "2014–06/2016"
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
+  "research_interests": [
+    "Solid mechanics",
+    "Nanomechanics",
+    "Cell mechanics",
+    "Mechanics of cell–nanomaterial interactions",
+    "Mechanics of nanostructured metallic materials"
   ],
-  "teaching": [
+  "honors_and_awards": [
+    "Youth Science and Technology Award, CSTAM, 2023",
+    "Xu Zhilun Outstanding Teacher Award of Mechanics, CSTAM, 2023",
+    "NG Teng Fong/Sino Scholarship for Outstanding Youth Faculty, Peking University, 2021",
+    "BOE Technology Teacher Award for Excellence in Teaching, Peking University, 2021",
+    "Excellent Young Researcher Award, National Natural Science Foundation of China, 2021–2023",
+    "Overseas High-Level Talent Recruitment Program, 2016"
+  ],
+  "teaching": {
+    "undergraduate": [
+      "Mechanics of Materials (Spring 2018–2023)"
+    ],
+    "graduate": [
+      "Introduction to Biophysics (Fall 2017)",
+      "Applied Mathematics for Biomedicine (Fall 2018–2024)",
+      "Advanced Manufacturing Technology (Spring 2021–2023)",
+      "How to Write a Research Paper (Fall 2024)"
+    ]
+  },
+  "professional_activities": {
+    "editorial_board": [
+      "Forces in Mechanics (2020–present)",
+      "Journal of Mechanics of Materials and Structures (2024–present)"
+    ],
+    "reviewer_for": [
+      "ACS Applied Materials & Interfaces",
+      "ACS Nano",
+      "Advanced Functional Materials",
+      "Advanced Materials",
+      "Advanced Science",
+      "Biophysical Journal",
+      "Engineering Fracture Mechanics",
+      "International Journal of Mechanical Sciences",
+      "International Journal of Solids and Structures",
+      "Journal of the Mechanics and Physics of Solids",
+      "Materials Today",
+      "Science Advances",
+      "Small",
+      "Soft Matter"
+    ]
+  },
+  "selected_publications": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "authors": "J. L. Li†, Q. F. Han†, X. Z. Han, and X. Yi*",
+      "title": "Strength–ductility synergy in Mg-Gd-Y-Zr alloys via texture engineering in bi-directional forging",
+      "journal": "Journal of Magnesium and Alloys",
+      "year": 2025
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
+      "authors": "M. Wang, X. Y. Li, and X. Yi*",
+      "title": "Deformation, shape transformations, and stability of elastic rod loops within spherical confinement",
+      "journal": "Journal of the Mechanics and Physics of Solids",
+      "volume": 191,
+      "year": 2024
+    },
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "authors": "C. Y. Zhang, Y. X. Fang, C. Shi, H. Y. Yuan, and X. Yi*",
+      "title": "Stretching transition of vesicles with confined filament loops: Morphological evolution with filament distortion and reorientation",
+      "journal": "Giant",
+      "volume": 17,
+      "year": 2024
+    },
+    {
+      "authors": "H. Y. Tang, H. F. Ye, H. W. Zhang, X. Yi*, and Y. G. Zheng*",
+      "title": "Angle-dependent protrusion of cell membranes",
+      "journal": "Journal of the Mechanics and Physics of Solids",
+      "volume": 183,
+      "year": 2024
+    },
+    {
+      "authors": "C. Shi†, G. J. Zou†, Z. M. Wu, M. Wang, X. Y. Zhang, H. J. Gao*, and X. Yi*",
+      "title": "Morphological transformations of vesicles with confined flexible filaments",
+      "journal": "Proceedings of the National Academy of Sciences of the U.S.A.",
+      "volume": 120,
+      "issue": 18,
+      "year": 2023
     }
   ]
 }
