@@ -1,65 +1,314 @@
-# Site settings
-title: "Xin Yi"
-name: "Xin Yi"
-description: "Associate Professor, Peking University"
-url: "https://yourname.github.io"   # ← 修改为你的域名
-baseurl: ""                          # 根目录站点保持空字符串
-repository: "yourname/yourname.github.io"  # ← 修改为你的仓库名
+# Welcome to Jekyll!
+# This is a site-wide configuration tailored for Xin Yi using the AcademicPages pattern you provided.
 
-# Build settings
+# Basic Site Settings
+locale                   : "en-US"
+site_theme               : "default" # "default" or "air"
+title                    : "Xin Yi - Peking University"
+title_separator          : "-"
+name                     : &name "Xin Yi"
+description              : &description "Xin Yi's academic portfolio"
+url                      : https://yourusername.github.io   # ← replace with your GitHub Pages URL
+baseurl                  : ""                                # keep empty for user.github.io root sites
+repository               : "yourusername/yourusername.github.io"  # ← replace with your repo
+
+# Site Author (left sidebar author card)
+author:
+  # Biographic information
+  avatar           : "profile.png"   # put an image at /images or project root; or leave as-is
+  name             : "Xin Yi"
+  pronouns         :
+  bio              : "Associate Professor, Department of Mechanics and Engineering Science, College of Engineering, Peking University"
+  location         : "Beijing, China"
+  employer         : "Peking University"
+  uri              : "http://www2.coe.pku.edu.cn/subpaget.asp?id=602"
+  email            : "xyi@pku.edu.cn"
+
+  # Academic websites (fill if available; leave blank to hide)
+  academia         :
+  arxiv            :
+  googlescholar    :
+  inspire-hep      :
+  impactstory      :
+  orcid            :
+  semantic         :
+  pubmed           :
+  researchgate     :
+  scopus           :
+
+  # Repositories and software development
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  github           :                      # ← your GitHub username (optional for sidebar icon)
+  kaggle           :
+  stackoverflow    :
+
+  # Social media
+  artstation       :
+  bluesky          :
+  facebook         :
+  flickr           :
+  foursquare       :
+  goodreads        :
+  google_plus      :
+  keybase          :
+  instagram        :
+  lastfm           :
+  linkedin         :
+  mastodon         :
+  medium           :
+  pinterest        :
+  soundcloud       :
+  steam            :
+  telegram         :
+  tumblr           :
+  twitter          :
+  vine             :
+  weibo            :
+  wikipedia        :
+  xing             :
+  youtube          :
+  zhihu            :
+
+# Publication Category Headings
+publication_category:
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'
+  conferences:
+    title: 'Conference Papers'
+
+# Site Settings
+teaser                   :
+breadcrumbs              : false
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled"
+talkmap_link             : false
+comments:
+  provider               :
+  disqus:
+    shortname            :
+  discourse:
+    server               :
+  facebook:
+    appid                :
+    num_posts            :
+    colorscheme          :
+staticman:
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "gh-pages"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "_data/comments/{options.slug}"
+  requiredFields         : ['name', 'email', 'message']
+  transforms:
+    email                : "md5"
+  generatedFields:
+    date:
+      type               : "date"
+      options:
+        format           : "iso8601"
+atom_feed:
+  hide                   : false
+  path                   :
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
+
+# Social Sharing
+twitter:
+  username               : &twitter
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 :
+og_description           :
+social:
+  type                   : Person
+  name                   : "Xin Yi"
+  links                  : []
+
+# Analytics
+analytics:
+  provider               : "false"  # "false", "google", "google-universal", "google-analytics-4", "custom"
+  google:
+    tracking_id          :
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .github
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - CHANGELOG
+  - Capfile
+  - config
+  - Dockerfile
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - local
+  - log
+  - node_modules
+  - package.json*
+  - Rakefile
+  - README
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
 markdown: kramdown
 highlighter: rouge
-theme: "academicpages"   # 如果你是从 academicpages 模板fork的，保持此项
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jemoji
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
-permalink: /:categories/:title/
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
-# Author (linked to _data/authors.yml)
-author:
-  name: "Xin Yi"
-  avatar: "images/profile.jpg"   # 放一张头像到 /images/profile.jpg（可空）
-  bio: "Associate Professor, Peking University"
-  location: "Beijing, China"
-  email: "xyi@pku.edu.cn"
-  uri: "https://sites.google.com/view/yixin1983"
-  github: your-github-username   # ← 可填你的 GitHub 用户名
-  google_scholar:               # ← 若有Google Scholar ID可填
-  ORCID:                        # ← 若有ORCID可填
-  # 其他社交可按需添加：twitter, linkedin, researchgate, etc.
-
-# Collections (AcademicPages默认集合)
+# Collections
 collections:
-  publications:
-    output: true
-    permalink: /publications/:path/
-  talks:
-    output: true
-    permalink: /talks/:path/
   teaching:
     output: true
-    permalink: /teaching/:path/
-  # pages 由 Jekyll 自动处理
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
 
-# Defaults for Markdown pages & posts
+# Defaults
 defaults:
+  # _posts
   - scope:
       path: ""
-      type: "posts"
+      type: posts
     values:
-      layout: "single"
+      layout: single
       author_profile: true
-      read_time: false
-      comments: false
-      share: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
   - scope:
       path: ""
-      type: "pages"
+      type: pages
     values:
-      layout: "single"
+      layout: single
       author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
 
-# Analytics (可选)
-google_analytics: ""      # UA-XXXX 或 G-XXXX；没有就留空
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Outputting
+permalink: /:categories/:title/
+# paginate: 5
+# paginate_path: /page:num/
+timezone: Etc/UTC
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+# Mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
