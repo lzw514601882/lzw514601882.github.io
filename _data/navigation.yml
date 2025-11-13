@@ -9,18 +9,16 @@
 
 main:
   - title: "Research"
-    url: "https://sites.google.com/view/yixin1983/publications"
+    url: "https://sites.google.com/view/yixin1983/research"
     external: true
     
   - title: "Publications"
     url: "https://sites.google.com/view/yixin1983/publications"
     external: true
 
-  #- title: "Talks"
-    #url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "Graphical abstracts"
+    url: "https://sites.google.com/view/yixin1983/graphical-abstracts"
+    external: true
     
   #- title: "Portfolio"
     #url: /portfolio/
