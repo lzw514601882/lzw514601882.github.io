@@ -15,14 +15,14 @@ My research spans **solid mechanics, nanomechanics, and cell mechanics**, with r
 
 ---
 
-## Education
+## 🎓 Education
 - **Ph.D.**, Mechanical Engineering, Brown University (2008–2014)  
 - **M.S.**, Mechanical Engineering, Peking University (2005–2008)  
 - **B.Eng.**, Mechanical Engineering, Peking University (2001–2005)
 
 ---
 
-## Professional Experience
+## 💼 Professional Experience
 - **Associate Professor**, Peking University (2023–present)  
 - **Assistant Professor**, Peking University (2016–2023)  
 - **Postdoctoral Associate**, Dartmouth College (2016)  
@@ -30,7 +30,7 @@ My research spans **solid mechanics, nanomechanics, and cell mechanics**, with r
 
 ---
 
-## Honors and Awards (selected)
+## 🏆 Honors and Awards (selected)
 - Youth Science and Technology Award, CSTAM (2023)  
 - Xu Zhilun Outstanding Teacher Award, CSTAM (2023)  
 - NG Teng Fong / Sino Scholarship for Outstanding Youth Faculty, PKU (2021)  
@@ -39,14 +39,14 @@ My research spans **solid mechanics, nanomechanics, and cell mechanics**, with r
 
 ---
 
-## Teaching (recent)
+## 📘 Teaching (recent)
 **Undergraduate**: Mechanics of Materials (Spring 2018–2023)  
 **Graduate**: Introduction to Biophysics (Fall 2017); Applied Mathematics for Biomedicine (Fall 2018–2024);  
 Advanced Manufacturing Technology (Spring 2021–2023); How to Write a Research Paper (Fall 2024)
 
 ---
 
-## Selected Publications
+## 📚 Selected Publications
 - J. L. Li, Q. F. Han, X. Z. Han, **X. Yi\***, *Strength–ductility synergy in Mg-Gd-Y-Zr alloys via texture engineering in bi-directional forging*, **Journal of Magnesium and Alloys** (2025).  
 - M. Wang, X. Y. Li, **X. Yi\***, *Deformation, shape transformations, and stability of elastic rod loops within spherical confinement*, **J. Mech. Phys. Solids** 191 (2024) 105771.  
 - C. Y. Zhang, Y. X. Fang, C. Shi, H. Y. Yuan, **X. Yi\***, *Stretching transition of vesicles with confined filament loops*, **Giant** 17 (2024) 100233.  
