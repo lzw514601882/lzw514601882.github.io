@@ -25,8 +25,8 @@ My research spans **solid mechanics, nanomechanics, and cell mechanics**, with r
 ## 💼 Professional Experience
 - **Associate Professor**, Peking University (2023–present)  
 - **Assistant Professor**, Peking University (2016–2023)  
-- **Postdoctoral Associate**, Dartmouth College (2016)  
 - **Postdoctoral Associate**, Brown University (2014–2016)
+- **Postdoctoral Associate**, Dartmouth College (2016)  
 
 ---
 
