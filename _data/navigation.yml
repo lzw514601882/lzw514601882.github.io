@@ -8,6 +8,10 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
+  - title: "Research"
+    url: "https://sites.google.com/view/yixin1983/publications"
+    external: true
+    
   - title: "Publications"
     url: "https://sites.google.com/view/yixin1983/publications"
     external: true
