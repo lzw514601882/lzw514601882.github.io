@@ -13,7 +13,7 @@ title                    : "Xin Yi | Peking University"
 title_separator          : "-"
 name                     : "Xin Yi(易新)"
 description              : &description "Associate Professor, Peking University"  # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : "http://www2.coe.pku.edu.cn/subpaget.asp?id=602" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      :  # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
